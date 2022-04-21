@@ -30,7 +30,7 @@ from .panasonic import PanasonicApiDevice
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "panasonic_cc"
+DOMAIN = "panasonic_cc_v2"
 
 CONFIG_SCHEMA = vol.Schema(
     {

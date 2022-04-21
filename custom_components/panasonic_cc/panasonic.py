@@ -156,7 +156,7 @@ class PanasonicApiDevice:
     def device_info(self):
         """Return a device description for device registry."""
         return {
-            "identifiers": { ("panasonic_cc", self.id) },
+            "identifiers": { ("panasonic_cc_v2", self.id) },
             "manufacturer": "Panasonic",
             "model": self.device['model'],
             "name": self.name,
